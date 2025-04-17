@@ -1,0 +1,33 @@
+.table-container {
+  margin: 20px;
+  overflow-x: auto;
+  background-color: rgb(240, 251, 255);
+  padding: 10px;
+}
+
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.responsive-table th,
+.responsive-table td {
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  text-align: center;
+}
+
+.responsive-table th {
+  background-color: #259bca;
+}
+
+@media (max-width: 768px) {
+  .responsive-table {
+    font-size: 12px;
+  }
+}
+table thead tr th {
+  /* background-color: #15c070;
+  color: #fff; */
+}

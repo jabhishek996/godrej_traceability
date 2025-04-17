@@ -1,0 +1,100 @@
+.container {
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .checkByParam-sec {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .checkByParam-sec select,
+  .checkByParam-sec input,
+  .checkByParam-sec button {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+  
+  .checkByParam-sec button {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .checkByParam-sec button:hover {
+    background-color: #1565c0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    min-width: 900px; /* helpful for horizontal scroll */
+  }
+  
+  table thead {
+    background-color: #f4f4f4;
+  }
+
+  table thead th {
+    background-color: #15c070;
+    color: #fff;
+  }
+  
+  table th,
+  table td {
+    padding: 12px 10px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f1faff;
+  }
+  
+  @media (max-width: 768px) {
+    .checkByParam-sec {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    table {
+      font-size: 12px;
+    }
+  }
+  
+
+  .btn{
+    align-items: flex-end;
+    border: none;
+    background-color: #15c070;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 15px;
+    transition: all 0.2s ease-in;
+  }
+
+  .btn:hover{ background-color: #d6481d;
+  cursor: pointer;}
+
+  .download-btn{
+    display: flex;
+    justify-content: space-between;
+  }
+  .hide-for-print {
+    display: none !important;
+  }
+  
