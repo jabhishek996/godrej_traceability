@@ -22,7 +22,7 @@ const navbar = () => {
                             to="/Product-tracibility"
                             className={({ isActive }) => (isActive ? 'active_link' : 'inactive_link')}
                         >
-                             Tracibility
+                             Traceability
                         </NavLink>
                     </li>
                     <li>
@@ -30,7 +30,7 @@ const navbar = () => {
                             to="/Download"
                             className={({ isActive }) => (isActive ? 'active_link' : 'inactive_link')}
                         >
-                            Download
+                            Histogram
                         </NavLink>
                     </li>
                     <li>
